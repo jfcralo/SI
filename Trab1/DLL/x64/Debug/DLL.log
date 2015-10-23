@@ -1,0 +1,12 @@
+﻿Build started 28/09/2015 16:28:01.
+     1>Project "C:\SI\Trab1\DLL\DLL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IC:\SI\Trab1\DLL /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _WINDOWS /D _USRDLL /D DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Hardware.cpp
+         Hardware.cpp
+     1>c:\si\trab1\dll\hardware.cpp(6): error C2375: 'open_channels': redefinition; different linkage
+         c:\si\trab1\dll\hardware.h(8): note: see declaration of 'open_channels'
+     1>Done Building Project "C:\SI\Trab1\DLL\DLL.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.26

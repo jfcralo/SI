@@ -1,0 +1,18 @@
+﻿Build started 28/09/2015 15:05:07.
+     1>Project "C:\SI\Trab1\DLL\DLL.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\SI\Trab1\DLL\Debug\DLL.dll" /INCREMENTAL /NOLOGO NIDAQmx.lib nidaqmx64.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\SI\Trab1\DLL\Debug\DLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\SI\Trab1\DLL\Debug\DLL.lib" /MACHINE:X86 /DLL Debug\Hardware.obj
+         NIDAQmx.lib
+         NIDAQmx64.lib
+            Creating library C:\SI\Trab1\DLL\Debug\DLL.lib and object C:\SI\Trab1\DLL\Debug\DLL.exp
+     1>Hardware.obj : error LNK2019: unresolved external symbol "bool __cdecl create_DI_channel(unsigned long)" (?create_DI_channel@@YA_NK@Z) referenced in function "void __cdecl open_channels(void)" (?open_channels@@YAXXZ)
+     1>Hardware.obj : error LNK2019: unresolved external symbol "bool __cdecl create_DO_channel(unsigned long)" (?create_DO_channel@@YA_NK@Z) referenced in function "void __cdecl open_channels(void)" (?open_channels@@YAXXZ)
+     1>Hardware.obj : error LNK2019: unresolved external symbol "unsigned char __cdecl ReadDigitalU8(unsigned long)" (?ReadDigitalU8@@YAEK@Z) referenced in function "bool __cdecl get_bit(int,int)" (?get_bit@@YA_NHH@Z)
+     1>Hardware.obj : error LNK2019: unresolved external symbol "void __cdecl WriteDigitalU8(unsigned long,unsigned char)" (?WriteDigitalU8@@YAXKE@Z) referenced in function "void __cdecl set_bit(int,int,bool)" (?set_bit@@YAXHH_N@Z)
+     1>nidaqmx64.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+     1>C:\SI\Trab1\DLL\Debug\DLL.dll : fatal error LNK1120: 4 unresolved externals
+     1>Done Building Project "C:\SI\Trab1\DLL\DLL.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.25

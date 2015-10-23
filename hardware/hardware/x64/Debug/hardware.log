@@ -1,0 +1,20 @@
+﻿Build started 28-09-2015 15:48:24.
+     1>Project "C:\SI\hardware\hardware\hardware.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IC:\SI /I"C:\Program Files\Java\jdk1.8.0_60\include" /I"C:\Program Files\Java\jdk1.8.0_60\include\win32" /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D HARDWARE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\hardware.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt hardware.cpp
+     1>cl : Command line warning D9007: '/Gm' requires '/Zi'; option ignored
+         hardware.cpp
+     1>hardware.cpp(22): warning C4244: 'argument' : conversion from 'jint' to 'uInt8', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\SI\hardware\x64\Debug\hardware.dll" /INCREMENTAL /NOLOGO wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\SI\hardware\x64\Debug\hardware.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\SI\hardware\x64\Debug\hardware.lib" /MACHINE:X64 /DLL x64\Debug\interface.obj
+         x64\Debug\dllmain.obj
+         x64\Debug\hardware.obj
+         x64\Debug\stdafx.obj
+         ..\..\NIDAQmx.lib
+         ..\..\nidaqmx64.lib
+         hardware.vcxproj -> C:\SI\hardware\x64\Debug\hardware.dll
+     1>Done Building Project "C:\SI\hardware\hardware\hardware.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.80
