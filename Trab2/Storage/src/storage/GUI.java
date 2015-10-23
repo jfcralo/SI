@@ -87,6 +87,7 @@ public class GUI extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         char c='c';
+        System.out.println("escrevestes");
         d.move(c);
     }//GEN-LAST:event_jButton2ActionPerformed
 
@@ -94,6 +95,8 @@ public class GUI extends javax.swing.JFrame {
         // TODO add your handling code here:
         int ports[]={0};
         int last_ports[]={0};
+        
+        System.out.println("lestes");
         
         d.read_ports(ports, last_ports);
     }//GEN-LAST:event_jButton1ActionPerformed
